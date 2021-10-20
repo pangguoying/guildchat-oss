@@ -36,11 +36,6 @@ func Init() *gin.Engine {
 
 	AdminRouter(adminRouter)
 
-	/***api路由定义****/
-	apiRouter := router.Group("/api")
-
-	ApiRouter(apiRouter)
-
 	return router
 }
 

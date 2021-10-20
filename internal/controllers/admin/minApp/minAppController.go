@@ -9,7 +9,7 @@ type minAppController struct {
 	admin.BaseController
 }
 
-var Mc = minAppController{}
+var Mac = minAppController{}
 
 func (con *minAppController) Index(c *gin.Context) {
 
